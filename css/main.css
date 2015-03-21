@@ -26,20 +26,16 @@ p {
 
 ul li {
 	line-height: 2.25em;
-	letter-spacing: .01em
+	letter-spacing: .0175em;
 }
 
 .mug {
-	padding-top: 16px;
-	padding-bottom: 33px;
+	padding: 16px 0 33px 0;
 }
 
 .box {
-	padding-top: 11px;
-	padding-left: 29px;
-	padding-bottom: 32px;
-	border: thin solid;
-	border-color: #ccc;
+	padding: 11px 0 32px 29px;
+	border: thin solid #ccc;
 }
 
 .list {
