@@ -1,46 +1,48 @@
-  body{
- 	font-family: Verdana, sans-serif;
- 	margin-top: 25px;
- 	max-width: 1024px;
- }
+body {
+	font-family: Verdana, sans-serif;
+	margin-top: 25px;
+	max-width: 1024px;
+}
 
- h1 {
+h1 {
+	margin-top: 19px;
 	font-size: 50px;
 	color: #666;
 	letter-spacing: -0.02em;
 }
 
 h2 {
+	margin-top: 19px;
 	font-size: 25px;
 	font-weight: bold;
 	color: #f07c17;
-	letter-spacing: -0.02em;
+	letter-spacing: -0.025em;
 }
 
 p {
 	font-size: 16px;
-	line-height: 2;
+	line-height: 2em;
+}
+
+ul li {
+	line-height: 2.25em;
+	letter-spacing: .01em
 }
 
 .mug {
-	padding-top: 15px;
-	padding-bottom: 25px;
-}
-
-.features {
-	padding-top: 15px;
-	padding-left: 15px;
+	padding-top: 16px;
+	padding-bottom: 33px;
 }
 
 .box {
-	padding-top: 20px;
-	padding-left: 25px;
-	padding-bottom: 15px;
+	padding-top: 11px;
+	padding-left: 29px;
+	padding-bottom: 32px;
 	border: thin solid;
 	border-color: #ccc;
 }
 
 .list {
-	line-height: 2;
+	font-size: 14px;
 	font-weight: bold;
 }
